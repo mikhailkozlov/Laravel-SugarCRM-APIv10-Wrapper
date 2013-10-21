@@ -1,0 +1,23 @@
+{
+    "name": "sugarcrm/restapi",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mikhail Kozlov",
+            "email": "mkozlov@sugarcrm.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Sugarcrm\\Restapi": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
